@@ -1,6 +1,6 @@
 # VoiceOwl Transcription App
 
-A production-ready full-stack application for managing audio transcriptions, featuring a layered backend architecture and a modern React frontend.
+A full-stack application for managing audio transcriptions, featuring a layered backend architecture and a modern React frontend.
 
 ## Project Structure (Monorepo)
 
@@ -17,7 +17,7 @@ The backend follows a strict **Layered Architecture** to separate concerns and e
 - **Utils/Middleware**: Reusable components for logging, error handling, and retry logic.
 
 **Key Features:**
-- **Retry Mechanism**: Exponential backoff implemented for Azure service integration.
+- **Mechanism**: Exponential backoff implemented for Azure service integration.
 - **Centralized Error Handling**: Global error middleware ensures consistent API responses.
 - **Safety**: Strict TypeScript typing `strict: true`.
 
